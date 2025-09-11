@@ -1,12 +1,77 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      Sigma Website
-    </title>
-  </head>
-  <body>
-    <h1>skibdidi slicers</h1>
-  </body>
-</html>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+ <link rel="icon" type="image/png" href="icon.png">
+     <meta property="og:title" content="The Bubble" />
+  <meta property="og:description" content="A School Site With Music & Proxies!" />
+  <meta property="og:image" content="https://realnoob.42web.io/preview.png" />
+  <meta property="og:url" content="https://realnoob.42web.io/" />
+  <meta property="og:type" content="website" />
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #2b2a2a;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #ff0346;
+    text-shadow: 0 0 12px #ff0346;
+  }
+
+  h2 {
+    margin-bottom: 40px;
+    color: #ff0346;
+    text-shadow: 0 0 12px #ff0346;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navButton {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #ff0346;
+    box-shadow: 0 0 15px #ff0346;
+    transition: all 0.3s ease;
+  }
+
+  .navButton:hover {
+    background: #ff0346;
+    color: #2b2a2a;
+    box-shadow: 0 0 25px #ff0346;
+    transform: scale(1.08);
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome</h1>
+  <h2>Click A Button to Start Exploring!</h2>
+  <div class="button-container">
+    <button class="navButton" onclick="location.href='games.html'">Games</button>
+    <button class="navButton" onclick="location.href='proxies.html'">Proxies</button>
+  </div>
+</body>
+</html>
